@@ -1,0 +1,26 @@
+{
+    "name": "milyoona/nova-persian-datepicker",
+    "description": "A Laravel Nova persian date field.",
+    "keywords": [],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Milyoona\\NovaPersianDatepicker\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Milyoona\\NovaPersianDatepicker\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
